@@ -1,0 +1,27 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.editor-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
